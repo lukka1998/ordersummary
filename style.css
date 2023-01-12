@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: "outfit", sens-serif;
+}
+.card {
+  width: 450px;
+  background-color: white;
+  border-radius: 20px;
+}
+.image1 {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+.title {
+  color: #1f2e55;
+  text-align: center;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 37px;
+  margin-top: 45px;
+}
+.description {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: #717fa6;
+  width: 354px;
+  margin-left: 48px;
+  margin-right: 48px;
+  margin-top: 5px;
+}
+.music-change {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f7f9ff;
+  margin-left: 48px;
+  margin-right: 48px;
+  height: 68px;
+  align-items: center;
+  border-radius: 11px;
+  padding: 14px;
+}
+.music-icon {
+  display: flex;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+}
+
+.music {
+  display: flex;
+  justify-content: center;
+  letter-spacing: 1px;
+}
+.change1 {
+  display: flex;
+  justify-content: center;
+}
+.music div h5 {
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 21px;
+  padding-left: 5px;
+  color: #1f2e55;
+}
+.music div p {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  padding-left: 5px;
+  color: #717fa6;
+}
+.change1 {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  color: #382ae1;
+}
+.payment {
+  text-align: center;
+  padding: 20px;
+  background-color: #382ae1;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: white;
+  border-radius: 10px;
+}
+.payment a {
+  color: white;
+  font-size: 17px;
+  text-underline-offset: none;
+}
+.cancel a {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 20px;
+  color: #717fa6;
+}
+.cancel {
+  padding-top: 11px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+.cancel a,
+.payment a {
+  text-decoration: none;
+}
+.description,
+.hp h5,
+p,
+.change1,
+.payment a,
+.cancel a,
+.title,
+.music-change img {
+  cursor: pointer;
+}
+.description:hover,
+.hp h5:hover,
+.hp p:hover,
+.change1:hover,
+.payment a:hover,
+.cancel a:hover,
+.title:hover {
+  text-decoration: 1px blue underline;
+}
+.music-change img:hover {
+  border: 1px solid blue;
+  border-radius: 50px;
+}
